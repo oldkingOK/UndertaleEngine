@@ -8,3 +8,5 @@ Battle_SetEnemyActionNumber(_enemy_slot, 2);
 // 行为叫什么名字
 Battle_SetEnemyActionName(_enemy_slot, 0, "* Check");
 Battle_SetEnemyActionName(_enemy_slot, 1, "* Talk");
+
+BGM_Play(0, bgm_pigstep)
