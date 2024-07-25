@@ -158,6 +158,7 @@
     {"id":{"name":"battle_soul_red","path":"objects/battle_soul_red/battle_soul_red.yy",},},
     {"id":{"name":"battle_soul","path":"objects/battle_soul/battle_soul.yy",},},
     {"id":{"name":"battle_turn","path":"objects/battle_turn/battle_turn.yy",},},
+    {"id":{"name":"battle_turn0","path":"objects/battle_turn0/battle_turn0.yy",},},
     {"id":{"name":"battle_ui","path":"objects/battle_ui/battle_ui.yy",},},
     {"id":{"name":"battle","path":"objects/battle/battle.yy",},},
     {"id":{"name":"block_corner","path":"objects/block_corner/block_corner.yy",},},

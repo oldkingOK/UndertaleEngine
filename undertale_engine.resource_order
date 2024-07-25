@@ -38,6 +38,7 @@
     {"name":"battle_soul_red","order":3,"path":"objects/battle_soul_red/battle_soul_red.yy",},
     {"name":"battle_soul","order":1,"path":"objects/battle_soul/battle_soul.yy",},
     {"name":"battle_turn","order":1,"path":"objects/battle_turn/battle_turn.yy",},
+    {"name":"battle_turn0","order":2,"path":"objects/battle_turn0/battle_turn0.yy",},
     {"name":"battle_ui","order":5,"path":"objects/battle_ui/battle_ui.yy",},
     {"name":"battle","order":1,"path":"objects/battle/battle.yy",},
     {"name":"block_corner","order":15,"path":"objects/block_corner/block_corner.yy",},
