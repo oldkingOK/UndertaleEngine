@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"snd_save",
+  "%Name":"snd_explosion1",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,17 +9,17 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.565986,
-  "name":"snd_save",
+  "duration":2.5,
+  "name":"snd_explosion1",
   "parent":{
-    "name":"SFX",
-    "path":"folders/Sounds/SFX.yy",
+    "name":"EnderDragon",
+    "path":"folders/Sounds/SFX/EnderDragon.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_save",
+  "soundFile":"snd_explosion1.ogg",
   "type":0,
   "volume":1.0,
 }
