@@ -13,4 +13,4 @@ toAlpha = 1;
 alpha_spd = 0.03;
 
 duration = 200;// 持续时间
-alarm[1] = duration; 
+alarm[1] = duration;

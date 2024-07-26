@@ -5,7 +5,7 @@ BGM_Play(1, snd_enderdragon_fileball,false);
 spd = 2;
 radius = 10;
 distance = 500;
-grv = 0.1;
+grv = 0.05;
 
 var _player = battle_soul.id;
 var _angle = random_range(0, 360)

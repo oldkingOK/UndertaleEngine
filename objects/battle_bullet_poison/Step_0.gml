@@ -3,12 +3,10 @@
 // 伤害
 with (battle_soul)
 {
-	if (point_in_circle(x, y, other.x, other.y, other.radius))
+	if (_inv <= 0 and point_in_circle(x, y, other.x, other.y, other.radius))
 	{
-		if (Battle_CallSoulEventHurt())
-		{
-			Player_Hurt(0.001);
-		}
+		Battle_CallSoulEventHurt();
+		Player_Hurt(1);
 	}
 }
 
@@ -17,3 +15,4 @@ if (toAlpha == 0 and alpha == 0)
 {
 	instance_destroy();
 }
+
