@@ -3,6 +3,8 @@
 spd += grv;
 x = min(x + lengthdir_x(spd, point_direction(x,y,target_x,target_y)), target_x);
 y = min(y + lengthdir_y(spd, point_direction(x,y,target_x,target_y)), target_y);
+x += random_range(-buffer, buffer)
+y += random_range(-buffer, buffer)
 
 if (point_in_circle(x,y,target_x,target_y, radius))
 {
