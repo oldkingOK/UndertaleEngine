@@ -10,7 +10,7 @@ if (point_in_circle(x,y,target_x,target_y, radius))
 {
 	with (instance_create_depth(x,y,DEPTH_BATTLE.BULLET_OUTSIDE_HIGH,battle_bullet_poison))
 	{
-		radius = random_range(40,60);
+		splash_radius = other.splash_radius;
 	}
 	BGM_Play(1,choose(snd_explosion1,snd_explosion2,snd_explosion3,snd_explosion4),false);
 	instance_destroy();

@@ -15,8 +15,8 @@ else
 random_set_seed(random_seed);
 for (var _dir = 0; _dir < 360; _dir += random_range(minT, maxT))
 {
-	var _x = x + random_range(0, lengthdir_x(radius, _dir));
-	var _y = y + random_range(0, lengthdir_y(radius, _dir));
+	var _x = x + lengthdir_x(random_range(0, splash_radius), _dir);
+	var _y = y + lengthdir_y(random_range(0, splash_radius), _dir);
 	draw_sprite(spr_posion_piece, 0, _x, _y)
 }
 

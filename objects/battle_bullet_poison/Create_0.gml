@@ -1,6 +1,6 @@
 /// @description 基础参数设置
 
-radius = 50;
+splash_radius = 10; // 散开半径，需要在 create 的时候设置
 minT = 5; // 周期，单位角度
 maxT = 10; // 周期，单位角度
 
@@ -13,4 +13,3 @@ toAlpha = 1;
 alpha_spd = 0.03;
 
 duration = 200;// 持续时间
-alarm[1] = duration;

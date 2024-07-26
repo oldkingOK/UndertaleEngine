@@ -5,6 +5,7 @@ BGM_Play(1, snd_enderdragon_fileball,false);
 buffer = 2; // 抖动
 spd = 2;
 radius = 10;
+splash_radius = 10;
 distance = 500;
 grv = 0.05;
 
