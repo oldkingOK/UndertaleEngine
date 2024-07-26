@@ -1,17 +1,18 @@
 /// @description Hurt Player
 
-if instance_exists(battle_soul) 
+// 伤害
+with (battle_soul)
 {
-	with (battle_soul)
+	if (point_in_circle(x, y, other.x, other.y, other.radius))
 	{
-		if (point_in_circle(x, y, other.x, other.y, other.radius))
+		if (Battle_CallSoulEventHurt())
 		{
-			Battle_CallSoulEventHurt();
-			Player_Hurt(2);
+			Player_Hurt(0.001);
 		}
 	}
 }
 
+// 检测消失
 if (toAlpha == 0 and alpha == 0)
 {
 	instance_destroy();

@@ -1,6 +1,6 @@
 /// @description 绘制
 
-random_set_seed(random_seed);
+// 透明度选择
 draw_set_alpha(alpha);
 if (alpha < toAlpha)
 {
@@ -11,6 +11,8 @@ else
 	alpha = max(alpha - alpha_spd, toAlpha);
 }
 
+// 绘制
+random_set_seed(random_seed);
 for (var _dir = 0; _dir < 360; _dir += random_range(minT, maxT))
 {
 	var _x = x + random_range(0, lengthdir_x(radius, _dir));
